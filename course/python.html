@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<link href="css/running.css" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<!-- Simple MDL Progress Bar -->
+<div id="p1" class="mdl-progress mdl-js-progress"></div>
+<script>
+  document.querySelector('#p1').addEventListener('mdl-componentupgraded', function() {
+    this.MaterialProgress.setProgress(44);
+  });
+</script><div class="kanban__title">
+      <h1><i class="material-icons">check</i>All Courses</h1></div>
+<div class="dd">
+
+  <ol class="kanban Gone">
+    <div class="kanban__title">
+      <h2><div class="title dd-handle">Cousera</h2></div>
+   <li class="dd-item" data-id="1">
+        <div><img src="img/courselogo/courserainterepython.png" height="120" width="230"></div>
+        <a href="https://www.coursera.org/learn/interactive-python-1" target="_blank">An Introduction to Interactive Programming in Python (Part 1)</a>
+        <br />
+        <a>Rice University</a>
+        <br />
+        <div class="actions">
+        <i class="material-icons" id="color">palette</i><i class="material-icons">edit</i><i class="material-icons">insert_link</i><i class="material-icons">attach_file</i></div>
+    </li>
+   <li class="dd-item" data-id="1">
+        <div><img src="img/courselogo/courserainterepython.png" height="120" width="230"></div>
+        <a href="https://www.coursera.org/learn/interactive-python-2" target="_blank">An Introduction to Interactive Programming in Python (Part 2)</a>
+        <br />
+        <a>Rice University</a>
+        <br />
+        <div class="actions">
+        <i class="material-icons" id="color">palette</i><i class="material-icons">edit</i><i class="material-icons">insert_link</i><i class="material-icons">attach_file</i></div>
+    </li>   
+       <li class="dd-item" data-id="1">
+        <div><img src="img/courselogo/courseraglobal.jpg" height="120" width="230"></div>
+        <a href="https://www.coursera.org/learn/global-warming-model" target="_blank">Global Warming II: Create Your Own Models in Python</a>
+        <br />
+        <a>The University of Chicago/a>
+        <br />
+        <div class="actions">
+        <i class="material-icons" id="color">palette</i><i class="material-icons">edit</i><i class="material-icons">insert_link</i><i class="material-icons">attach_file</i></div>
+    </li>   
+    <div class="actions">
+      <button class="addbutt"><i class="material-icons">control_point</i> Add new</button>
+    </div>
+  </ol>
+
+  <ol class="kanban To-do">
+     <div class="kanban__title">
+      <h2><div class="title dd-handle">edX</h2></div>
+   <li class="dd-item" data-id="1">
+        <div><img src="img/courselogo/edxc.png" height="120" width="230"></div>
+        <a href="https://www.edx.org/course/introduction-c-microsoft-dev210x-1#!" target="_blank">Introduction to C++</a>
+        <br />
+        <a>Microsoft</a>
+        <br />
+        <div class="actions">
+        <i class="material-icons" id="color">palette</i><i class="material-icons">edit</i><i class="material-icons">insert_link</i><i class="material-icons">attach_file</i></div>
+    </li>
+   <li class="dd-item" data-id="1">
+        <div><img src="img/courselogo/edxfun.png" height="120" width="230"></div>
+        <a href="https://www.edx.org/course/cheng-xu-she-ji-ji-chu-fundamentals-pekingx-532001x" target="_blank">Fundamentals of Programming</a>
+        <br />
+        <a>Peking University</a>
+        <br />
+        <div class="actions">
+        <i class="material-icons" id="color">palette</i><i class="material-icons">edit</i><i class="material-icons">insert_link</i><i class="material-icons">attach_file</i></div>
+    </li>   
+      
+    <div class="actions">
+      <button class="addbutt"><i class="material-icons">control_point</i> Add new</button>
+    </div>
+  </ol>
+
+  <ol class="kanban progress">
+     <div class="kanban__title">
+      <h2><div class="title dd-handle">MIT</h2></div>
+
+    <div class="actions">
+      <button class="addbutt"><i class="material-icons">control_point</i> Add new</button>
+    </div>
+  </ol>
+
+  <ol class="kanban  Done">
+         <div class="kanban__title">
+      <h2><div class="title dd-handle">Udemy</h2></div>
+   <li class="dd-item" data-id="1">
+        <div><img src="img/courselogo/cppjin.jpg" height="120" width="230"></div>
+        <a href="https://www.coursera.org/learn/cpp-chengxu-sheji" target="_blank">C++ Program Design</a>
+        <br />
+        <a>Peking University</a>
+        <br />
+        <div class="actions">
+        <i class="material-icons" id="color">palette</i><i class="material-icons">edit</i><i class="material-icons">insert_link</i><i class="material-icons">attach_file</i></div>
+    </li>
+    <div class="actions">
+      <button class="addbutt"><i class="material-icons">control_point</i> Add new</button>
+    </div>
+  </ol>
+
+</div>
+<menu class="kanban"><button><i class="material-icons">settings</i></button> <button><i class="material-icons">chevron_left</i></button>
+  <button class="viewkanban"><i class="material-icons ">view_column</i></button>
+  <button class="viewlist"><i class="material-icons">view_list</i></button>
+  <button><i class="material-icons">playlist_add</i> Add new Column</button></menu>
+
+  <script src="js/running.js" type="text/javascript"></script>
