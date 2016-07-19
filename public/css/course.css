@@ -1,0 +1,42 @@
+
+section {
+   padding:2em; 
+}
+header,nav, section > div, footer {
+  background:#ccc;
+  box-sizing:border-box;
+  margin-bottom:1em;
+  padding:1em;
+  position:relative;
+}
+@media screen and (max-width:30em) {
+  section {
+    display:-moz-box;
+    display:-webkit-box;
+    display:box;
+    -moz-box-orient:vertical;
+    -webkit-box-orient:vertical;
+    box-orient:vertical;
+  }
+  header {
+    -moz-box-ordinal-group: 1;
+    -webkit-box-ordinal-group: 1;
+    box-ordinal-group: 1;
+  }
+  nav {
+    -moz-box-ordinal-group: 5;
+    -webkit-box-ordinal-group: 5;
+    box-ordinal-group: 5;   
+  }
+  .ad-unit {
+    -moz-box-ordinal-group: 3;
+    -webkit-box-ordinal-group: 3;
+    box-ordinal-group: 3;  
+  }
+  .content-main {
+    -moz-box-ordinal-group: 2;
+    -webkit-box-ordinal-group: 2;
+    box-ordinal-group: 2;     
+  }
+
+}
