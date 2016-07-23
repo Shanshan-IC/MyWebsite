@@ -1,0 +1,9 @@
+{
+  "firebase": "myweb33",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
